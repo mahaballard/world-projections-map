@@ -15,54 +15,69 @@
     </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In the WGS84 projection, shape and area are preserved until they become distored the closer they are to the poles.
+        
+    </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
 
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff projection does not preserve shape or area. Like most map projections 
+        the scale is accurate along the equator and meridian.
+    </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
 
     <h2>Psuedo Mercator Projection</h2>
-    <h3>In the Mercator projection, all of the indactrices are circles.
-        The indactrices distort as they get closer to the North and South pole.
-        Distortions in this projection are dependent on the latitude.
+    <h3>Similar to the WGS84 projection, the Mercator projection distorts in shape and area as they get closer to the North and South pole.
+        Area distortions vary by latitude but maintains shape, area and distance closer to the equator.
     </h3>
     <a href="./maps/3857.png"></a>
     <img src="./maps/3857.png" alt="Psuedo-Mercator" width="500px">
 
     <h2>Sphere Winkel I Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Winkel projection distorts shape, area, distance and directions but maintains its accuracy closer to the equator. 
+        We can see this since the shape and area isn't in uniform size as we increase latitude and longitude.
+    </h3>
     <a href="./maps/53018.png"></a>
     <img src="./maps/53018.png" alt="Sphere Winkel I" width="500px">
 
     <h2>Equal Area Cyclindrical Projection</h2>
-    <h3>The Equal Area prjection preserves the area but the shapes are distored from 
-        north to south and east to west.
+    <h3>In the Equal Area projection, shape and area are severely distored at the poles. The 
+        area near the equator are pretty accurate compared to the Earth.
     </h3>
     <a href="./maps/54034.png"></a>
     <img src="./maps/54034.png" alt="Equal Area Cyclindrical" width="500px">
 
     <h2>World Equidistant Conic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In this map, it is severely distored at the poles because conic projections don't consider the polar regions.
+        The closer you get to the prime meridian and equator, they are more true-to-scale.
+    </h3>
     <a href="./maps/54027.png"></a>
     <img src="./maps/54027.png" alt="World Equidistant Conic" width="500px">
 
     <h2>North Pole Azimuthal Equidistant Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Azimuthal projection is projected on what looks like a flat surface which preserves the distance, direction
+    and angles but severely distorts the opposite pole.
+    </h3>
     <a href="./maps/102016.png"></a>
     <img src="./maps/102016.png" alt="North Pole Azimuthal Equidistant" width="500px">
 
     <h2>World Robinson Projection</h2>
-    <h3>In the Robinson projection, both the area and shape are distorted all over the map</h3>
+    <h3>In the Robinson projection, the shape area has some distortion as you move closer to the poles.
+        Distance and direction are distorted on this map. This is the map we always see, so I can tell
+        that its main use it to provide a visually appealing projection of the earth.
+    </h3>
     <a href="./maps/54030.png"></a>
     <img src="./maps/54030.png" alt="World Robinson" width="500px">
 
     <h2>World Polyconic Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This Polyconic projection distorts shape, area, direction and angles. The closer
+        to the central meridian, the projection is free of distortion. There is less distortion
+        going from north to south than there is going east to west.
+    </h3>
     <a href="./maps/54021.png"></a>
     <img src="./maps/54021.png" alt="World Polyconic" width="500px">
 
